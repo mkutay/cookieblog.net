@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-30T18:12:49+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cookie Blog</title><subtitle>A blog discussing AI and art.</subtitle><entry><title type="html">How Does AI Work?</title><link href="http://localhost:4000/ai/2023/04/24/how-does-ai-work.html" rel="alternate" type="text/html" title="How Does AI Work?" /><published>2023-04-24T20:59:00+03:00</published><updated>2023-04-24T20:59:00+03:00</updated><id>http://localhost:4000/ai/2023/04/24/how-does-ai-work</id><content type="html" xml:base="http://localhost:4000/ai/2023/04/24/how-does-ai-work.html">&lt;p&gt;&lt;strong&gt;Kuyta:&lt;/strong&gt; Hello to everyone! While Sir Potata is busy with some nerdy stuff, I thought I could write a post on how AI works. So here we go!&lt;/p&gt;
+
+&lt;p&gt;Now that we know about AI’s definition and history, we can talk about how it works. In our other posts, we mentioned how the subfield of artificial intelligence known as machine learning, is widely used in today’s world, and in this post, we will discuss how machine learning models work.&lt;/p&gt;
+
+&lt;p&gt;As a recap, if you don’t remember our last post, machine learning is the capability of a machine to imitate intelligent human behaviour. Artificial intelligence systems (machine learning models) are used to perform complex tasks in a way that is similar to how humans solve problems.&lt;/p&gt;
+
+&lt;p&gt;Machine learning is one way to use AI. It was defined in the 1950s by AI pioneer &lt;a href=&quot;https://en.wikipedia.org/wiki/Arthur_Samuel&quot;&gt;Arthur Samuel&lt;/a&gt; as 
+“the field of study that gives computers the ability to learn without explicitly being programmed.” 
+This definition is very true today and it is important to understand how machine learning algorithms work. 
+Basically, writing a program that a machine can &lt;em&gt;follow&lt;/em&gt; is very time-consuming or straight up impossible. 
+Like, training a computer to recognize human faces. While it is possible to code direct instructions that a 
+machine can follow, it is very very difficult and time-consuming. Here, machine learning takes the approach 
+of letting computers learn to program themselves through &lt;em&gt;experience&lt;/em&gt; and &lt;em&gt;trial-and-error&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now that we know how and why machine learning algorithms are actually and literally learning, we can now get into the nitty-gritty of how machines learn.&lt;/p&gt;
+
+&lt;p&gt;Well, as with everything, it all starts with some &lt;strong&gt;big data&lt;/strong&gt;—numbers, 
+photos, or text, like bank transactions, pictures of people, repair records, 
+time series data from sensors, or sales reports. All of this data is gathered 
+and intricately prepared to be used as &lt;em&gt;training data&lt;/em&gt;, or the information the 
+machine learning model will be trained on. The more data, the higher the accuracy, 
+and therefore the better the program.&lt;/p&gt;
+
+&lt;p&gt;After collecting the big data, which is honestly the hard part because collecting quality data is very, very hard (speaking from experience), programmers choose a machine learning model to use, supply the data, and let the computer model train itself to find patterns or make predictions. This training period can take days or even weeks if your computer is slow, but if you are Google, you can train big machine learning models in seconds (I am totally not jealous). Over time, the programmer can also tweak the model, including changing its parameters, to help push it towards greater accuracy and better results. Also, some data is held out from the training data to be used as evaluation data, which tests how accurate the machine learning model is when it is shown new data.&lt;/p&gt;
+
+&lt;p&gt;Now we shall talk about the three subcategories of machine learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Supervised&lt;/em&gt; machine learning models are trained with labelled data sets, which allow the models to learn and grow more accurate over time. For example, autonomous cars use supervised machine learning models. Humans label hundreds and thousands of pictures with traffic signs, traffic lights, and crosswalks (actually, this is what happened a couple years ago when Google captcha had all of those traffic themed ones, those cheeky bastards), and then the model trains on all of the labelled data and would learn ways to identify pictures of dogs on its own. Supervised machine learning is the most common type used today.&lt;/p&gt;
+
+&lt;p&gt;In &lt;em&gt;unsupervised&lt;/em&gt; machine learning, a program looks for patterns in unlabeled data. Unsupervised machine learning can find patterns or trends that people aren’t explicitly looking for. For example, an unsupervised machine learning program could look through online sales data and identify different types of clients making purchases.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reinforcement&lt;/em&gt; machine learning trains machines through trial and error to take the best action by establishing a reward system. Reinforcement learning can train models to play games or train autonomous vehicles to drive by telling the machine when it makes the right decisions, which helps it learn over time what actions it should take. Imagine a car feeling pain when it turns the wrong way or when it stops at a traffic light and getting imaginary fruits as a reward. This will make it learn over hundreds of attempts.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/how-does-ai-work/guide.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      A great guide by Thomas Malone on what subcategory to choose when training a model. See &lt;a href=&quot;https://bit.ly/3gvRho2&quot;&gt;this&lt;/a&gt;.
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now we can talk about three important models that arise from machine learning algorithms: Natural language processing, neural networks, deep learning, and generative models.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Natural language processing&lt;/em&gt; is a research area of machine learning in which machines learn to understand natural language as spoken and written by humans, instead of the data and numbers that are normally used by computers. This allows machines to recognize language, understand it, and respond to it, as well as create new text and translate between languages. They work by simplifying the paragraphs of text in the data set to very simple tokens and training on them. Natural language processing enables familiar technology like the infamous &lt;em&gt;ChatGPT&lt;/em&gt;, or Siri, or Alexa.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Neural networks&lt;/em&gt; are a commonly used, specific class of machine learning algorithms. Artificial neural networks are modelled on the human brain, in which thousands or millions of processing nodes are interconnected and organised into layers. In an artificial neural network, cells, or nodes, are connected, with each cell processing inputs and producing an output that is sent to other neurons. Labelled data moves through the nodes, or cells, with each cell performing a different function. In a neural network trained to identify whether a picture contains a cat or not, the different nodes would assess the information and arrive at an output that indicates whether a picture features a cat or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Deep learning networks&lt;/em&gt; are neural networks with many layers. The layered network can process extensive amounts of data and determine the “weight” of each link in the network — for example, in an image recognition system, some layers of the neural network might detect individual features of a face, like eyes, nose, or mouth, while another layer would be able to tell whether those features appear in a way that indicates a face or if it is jumbled mess. Deep learning, like neural networks, is modelled on the way the human brain works and powers many machine learning uses.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Generative models&lt;/em&gt; use all of the mentioned machine learning algorithms and tricks to create new images based on a set of instructions (like the famous MidJourney or DallE 2). Generative models normally have two different neural networks: a generator network and a discriminator network. The generator network takes a set of random arbitrary images as input and generates an output image from it. The discriminator network takes an image as input and tries to determine whether it is a real image from the training data set or a generated image from the generator network. While training, the generator network tries to fool the discriminator network into thinking the images that it creates are real images. This adversarial process helps the generator network learn to generate more realistic images over time.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, machine learning models are really really complicated and this post just barely scratched the indestructible diamond wall and we still are on top of the iceberg. But, the basics of how machines learning models work is actually this and there ain’t much to say on top of all this. As they say: until next time, I’m out.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/how-does-ai-work/iceberg.jpeg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      A questionable meme I found on AI and robotics.
+
+    &lt;/figcaption&gt;&lt;/figure&gt;</content><author><name>Kuyta</name></author><category term="AI" /><summary type="html">To what extent can you know that you know how AI works?</summary></entry><entry><title type="html">What is the History of AI?</title><link href="http://localhost:4000/ai/history/2023/03/12/history-of-ai.html" rel="alternate" type="text/html" title="What is the History of AI?" /><published>2023-03-12T00:47:55+03:00</published><updated>2023-03-12T00:47:55+03:00</updated><id>http://localhost:4000/ai/history/2023/03/12/history-of-ai</id><content type="html" xml:base="http://localhost:4000/ai/history/2023/03/12/history-of-ai.html">&lt;p&gt;&lt;strong&gt;Sir Potata:&lt;/strong&gt; Hi again; I’ll be taking over from here. Thanks to Kuyta, we now have a good idea of what AI is. But I think that most of us have already heard about it and know something about it (if you didn’t, then I’m afraid you are probably living in a cave). Recently, there has been a huge craze about Dall-E and ChatGPT. (God, don’t get me started on the ChatGPT; I swear, if someone mentions it one more time, I won’t be gentle.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kutay:&lt;/strong&gt; &lt;em&gt;ChatGPT&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sir Potata:&lt;/strong&gt;
+&lt;img src=&quot;/assets/images/history-of-ai/fuuuck.png&quot; alt=&quot;Fuuuck&quot; class=&quot;img-responsive&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aaaaaaanyways, In the past two years or so, AI has become more widely known and easier to use. 
+However, as Kuyta mentioned, it took a lot of time to get to where we are now. 
+Let’s take a look at how AI came to be what it is today and follow its steps throughout history.&lt;/p&gt;
+
+&lt;p&gt;I wouldn’t have guessed, but the foundations of AI were laid by people who preceded the technology by at least 200 years. 
+But even before that, people who lived during the ancient times already dreamed of the concept in some way. 
+For example, the bronze giant automaton &lt;a href=&quot;https://en.wikipedia.org/wiki/Talos&quot;&gt;Talos&lt;/a&gt;, the guardian of Crete Island, is based on a Greek myth. 
+While this example is on the imaginative side of things, the logic behind machine learning is also being established. 
+Around 350 BCE, Aristotle introduced the idea of &lt;a href=&quot;https://plato.stanford.edu/entries/aristotle-logic/&quot;&gt;syllogistic logic&lt;/a&gt;, a deductive logic system, in his book Prior Analytics. 
+During the 17th century, three mathematicians—Leibniz, Hobbes, and Descartes—worked on &lt;a href=&quot;https://philosophy.princeton.edu/sites/g/files/toruqf2381/files/phi516_syllabus_fall2021.pdf&quot;&gt;expressing thoughts systematically&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enough with the ancient history; let’s fast forward to times where computers exist, where it all began for real. 
+We are in 1950, Alan Turing published &lt;a href=&quot;https://redirect.cs.umbc.edu/courses/471/papers/turing.pdf&quot;&gt;Computing Machinery and Intelligence&lt;/a&gt;. 
+This is also where the previously mentioned Turing test is introduced. 
+He discussed the idea of a machine thinking like a human in detail in this paper, 
+including objections and possibilities. He concluded his paper with the following paragraph:&lt;/p&gt;
+
+&lt;p&gt;“We may hope that machines will eventually compete with men in all purely intellectual fields. 
+But which are the best ones to start with? Even this is a difficult decision. 
+Many people think that a very abstract activity, like playing chess, would be best. 
+It can also be maintained that it is best to provide the machine with the best sense organs 
+that money can buy and then teach it to understand and speak English.”&lt;/p&gt;
+
+&lt;p&gt;The amount of foresight this man possessed was truly astounding. Just two years after he made that statement, 
+Arthur Samuel developed a &lt;a href=&quot;https://sci-hub.st/https://ieeexplore.ieee.org/abstract/document/5389202&quot;&gt;program&lt;/a&gt; that was able to defeat humans in a game of checkers. 
+He was also going to be the one to use the term “machine learning” in 1959. Or the infamous &lt;a href=&quot;https://www.chess.com/article/view/deep-blue-kasparov-chess&quot;&gt;Deep Blue&lt;/a&gt;, 
+the computer built by IBM that defeated the world chess champion Kasparov in 1976.&lt;/p&gt;
+
+&lt;p&gt;As for understanding the language, that part was achieved to some extent in the 1960s. 
+In 1965, &lt;a href=&quot;http://www.universelle-automation.de/1966_Boston.pdf&quot;&gt;Eliza&lt;/a&gt;, a natural language processing program that could interact with the user using language, 
+was created by Joseph Weizenbaum. The concept was rather interesting; Eliza is a psychotherapist. 
+The program used keywords in the answers to come up with an answer. However, the amount of vocabulary was too limited, 
+and the answers were rather cliche. Here is the conversation I had with Eliza for the lols:&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/history-of-ai/eliza-convo.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      (&lt;strong&gt;Sir Potata:&lt;/strong&gt; I feel like I’ve got to make it clear that I’m not suicidal. I was aiming to trigger a keyword, but it looks like it is indifferent to suicidal tendencies. The best therapist out there, lmao. Also, I’ve never studied until 4 AM; I’m not a nerd, unlike a particular somebody… &lt;strong&gt;Kutay:&lt;/strong&gt; Shut)
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Sir Potata:&lt;/strong&gt; Again, for further explanation of Eliza you can watch this &lt;a href=&quot;https://www.youtube.com/watch?v=RMK9AphfLco&quot;&gt;video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then there is SHRDLU, another natural language understanding program that could understand, reply, 
+and perform simple tasks using simple sentences. It was developed by Terry Winograd in 1970. 
+(You can see it in action &lt;a href=&quot;https://www.youtube.com/watch?v=bo4RvYJYOzI&quot;&gt;here&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Back in 1956, the historic year for AI, two historic events happened in the field. 
+The “field” previously had no name. John McCarthy coined the term “artificial intelligence” 
+during the Dartmouth Workshop, where the pioneers of AI met up and charted the course for the next decade. 
+Their objective was as follows: “An attempt will be made to find how to make machines use language, 
+form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves.” 
+(Here is the full text of the &lt;a href=&quot;https://web.archive.org/web/20080930164306/http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html&quot;&gt;proposal&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;The second development was the &lt;a href=&quot;https://en.wikipedia.org/wiki/Logic_Theorist&quot;&gt;Logic Theorist&lt;/a&gt; by Allen Newell, Herbert A. Simon, and Cliff Shaw. 
+It is officially the first artificial intelligence program in history. 
+The program was used to prove several theorems in the book “Principia Mathematica”. 
+This led to the creation of the Information Programming Language (IPL), which will be important in the creation of AI programming languages.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kuyta:&lt;/strong&gt; What? AI programming languages? I’ve actually never heard of that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sir Potata:&lt;/strong&gt; Just like there there are there are specific programming languages specialized for specific tasks, eg. HTML for web programming or python for data analysis, researchers eventually had to come up with an easier way to code AI. As a result of that McCharty came up with the AI programming language Lisp, using IPL as a foundation. Even though it was 1960 when this happened, after more than 60 years, it is still used in the field which if you ask me, is pretty impressive.&lt;/p&gt;
+
+&lt;p&gt;What is more impressive is how long this post is becoming. I was a fool for thinking I would be able to fit everything in a post. Obviously it was a mistake. It is fascinating to see something that recently has exploded into popularity to have such history. Next post I will pick up from where I’ve left and complete this topic, until then I’m out.&lt;/p&gt;</content><author><name>Sir Potata</name></author><category term="AI" /><category term="history" /><summary type="html">Where did AI come from? How today&apos;s AI was made?</summary></entry><entry><title type="html">What Is AI?</title><link href="http://localhost:4000/ai/2023/03/03/what-is-ai.html" rel="alternate" type="text/html" title="What Is AI?" /><published>2023-03-03T21:47:55+03:00</published><updated>2023-03-03T21:47:55+03:00</updated><id>http://localhost:4000/ai/2023/03/03/what-is-ai</id><content type="html" xml:base="http://localhost:4000/ai/2023/03/03/what-is-ai.html">&lt;p&gt;&lt;strong&gt;Kuyta:&lt;/strong&gt; Hello to everyone again! In this post, we will discuss the magical thingamajig of AI. We will answer the questions: What is AI? How is it made? What are the forms of it? How does it work?&lt;/p&gt;
+
+&lt;p&gt;I will start with what the fuck is actually AI. The definition of AI varies with who you ask it to; however, 
+one of the most commonly used definitions of it comes from one of &lt;a href=&quot;https://www-formal.stanford.edu/jmc/whatisai.pdf&quot;&gt;&lt;em&gt;John McCarthy&lt;/em&gt;&lt;/a&gt;’s papers: 
+“It is the science and engineering of making intelligent machines, especially intelligent computer programs. 
+It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.”&lt;/p&gt;
+
+&lt;p&gt;However, decades before McCarthy’s paper, one of the GOATs of computing, Alan Turing, made a &lt;a href=&quot;https://redirect.cs.umbc.edu/courses/471/papers/turing.pdf&quot;&gt;&lt;em&gt;statement&lt;/em&gt;&lt;/a&gt; about AI: in one of his seminars, 
+he asked the question “Can machines think?” From there, he came up with a test, now famously called “The Turing Test” (how original? (Really, your surname?) 
+This test is made to distinguish between human and computer-generated art, text, or anything really.&lt;/p&gt;
+
+&lt;p&gt;The authors of one of the most used textbooks on AI, Stuart Russell and Peter Norvig’s &lt;a href=&quot;https://aima.cs.berkeley.edu/&quot;&gt;&lt;em&gt;Artificial Intelligence: A Modern Approach&lt;/em&gt;&lt;/a&gt;, 
+differentiated AI into computer systems on the basis of rationality and humans, and thinking vs. acting.&lt;/p&gt;
+
+&lt;p&gt;Computer Systems Based On A Human Approach:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Systems that think like humans,&lt;/li&gt;
+  &lt;li&gt;systems that act like humans.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Computer Systems Based on an Ideal Approach:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Systems that think rationally,&lt;/li&gt;
+  &lt;li&gt;systems that act rationally.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most AIs that are commonly used in the world—ChatGPT, Dall E 2, GPT3, and MidJourney—are based on &lt;em&gt;systems that act like humans&lt;/em&gt;. 
+Like, for instance, ChatGPT tries to be a human by trying to talk like a human. It tries to have a human conversation with you. 
+By contrast, &lt;em&gt;systems that think like humans&lt;/em&gt; are basically trying to learn how humans would think based on a hypothetical situation. 
+For example, a problem solver might not actually solve a problem correctly; however, it will have similar thought processes to real humans who tried to solve the same problem.&lt;/p&gt;
+
+&lt;p&gt;As a final word, we can say that AI are computational intelligences that do not have a mind of their own but are things that can mimic human thoughts and actions 
+(I mean, they can mimic reeeally well these days).&lt;/p&gt;
+
+&lt;p&gt;With that said, I am going to give the microphone to Sir Potata to talk about AI’s decades-old history.&lt;/p&gt;</content><author><name>Kuyta</name></author><category term="AI" /><summary type="html">Actually tho what is it?</summary></entry><entry><title type="html">Welcome To Our Cookie Blog</title><link href="http://localhost:4000/intro/2023/03/01/welcome-to-cookie-blog.html" rel="alternate" type="text/html" title="Welcome To Our Cookie Blog" /><published>2023-03-01T21:47:55+03:00</published><updated>2023-03-01T21:47:55+03:00</updated><id>http://localhost:4000/intro/2023/03/01/welcome-to-cookie-blog</id><content type="html" xml:base="http://localhost:4000/intro/2023/03/01/welcome-to-cookie-blog.html">&lt;p&gt;&lt;strong&gt;Sir Potata:&lt;/strong&gt; Hello and welcome to The Cookie Blog. This is where we, two (nerdy) high-school students, voice our opinions about AI art, have fun with it and explain to you readers about what is all the deal going around it. We hope to learn many things, discover ways to use this technology and share our experiences and the knowledge we have acquired on the way.
+Now, you might be asking why we picked such a specific topic to write about while there are tons of other topics out there that we can also blog about. First of all, we think that this topic is very important to understand where the world and technology is directing towards. We are still in the beginning of our lives, maybe you are too. I personally have this urge that makes me think about what our future will be like. For the reasons that we will explain in this post, AI is here to stay and will most likely to change our life forever. Also we are pretty much interested in AI art. I (Sir Potata) am mostly interested in the art side of things as my favorite hobby is drawing. I can’t sit still without scribbling more than 20 minutes so you could say that art is important to me. So is what is happening in the art community. I will discuss this in detail with the later posts but to sum it up, there is a big uprising among the artists.  Kuyta is more on the AI side of things, he is our tech guy here (and the bigger nerd lol). Everything about computers, he probably knows, if he doesn’t, next day he sure will. He likes coding and is amazed by what computers can do and how they work. The technical side of AI, how it works, its applications and development process will be tackled by him (because I don’t have enough brains to do so).
+In this first post, I think that we should first be defining what AI is in first place before getting into its specific usage in artistic areas. I will start with a more general explanation and examples of AI the history behind how it came to be what it is today. Then Kuyta be picking of where I left to explain how they work and the theory behind it.&lt;/p&gt;</content><author><name>Sir Potata</name></author><category term="intro" /><summary type="html">Who Are We?</summary></entry><entry><title type="html">All Of Our Posts</title><link href="http://localhost:4000/2023/03/01/every-post.html" rel="alternate" type="text/html" title="All Of Our Posts" /><published>2023-03-01T00:00:00+03:00</published><updated>2023-03-01T00:00:00+03:00</updated><id>http://localhost:4000/2023/03/01/every-post</id><content type="html" xml:base="http://localhost:4000/2023/03/01/every-post.html"></content><author><name></name></author><summary type="html"></summary></entry></feed>

@@ -1,0 +1,83 @@
+title: Cookie Blog
+subtitle: AI Art
+# email: mku
+description: >-
+  A blog discussing AI and art.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cookieblog.net" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+minimal_mistakes_skin: "dirt" # mint, air, default
+
+locale: "en-US" # language of pages
+repository: "Cookie-Blog/cookieblog.github.io"
+
+teaser: "/assets/images/default-teaser.png" # teaser which will be shown in related posts tab. you can also change it for single posts.
+logo: "assets/images/site-logo.png"
+og_image: "/assets/images/site-logo.png" # open graph default image
+
+words_per_minute: 180 # to estimate read time for each post
+
+paginate: 4
+paginate_path: /page:num/
+
+include: ["_pages"]
+
+comments:
+  provider: custom
+  disqus:
+    shortname: "https://cookie-blog.disqus.com/admin/"
+
+atom_feed:
+  hide: false
+
+search: true
+search_provider: "lunr"
+lunr:
+  search_within_pages: true
+
+analytics:
+  provider: "custom"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values: 
+      layout: single
+      show_date: true
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Cookie-Blog/cookieblog.github.io/"
+
+
+# Exclude from processing.
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

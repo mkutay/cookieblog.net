@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Who Are We?"
+    url: /intro/2023/03/01/welcome-to-cookie-blog.html
+  - title: "Posts"
+    url: /2023/03/01/every-post.html
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

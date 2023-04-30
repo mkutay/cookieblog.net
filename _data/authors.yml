@@ -1,0 +1,19 @@
+# /_data/authors.yml
+
+Kuyta:
+  name: "Kuyta"
+  bio: "What do you want, jewels? I am a very extravagant man."
+  avatar: "/assets/images/kuyta.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mkutaybzkrt01101011@gmail.com"
+
+Sir Potata:
+  name: "Sir Potata"
+  bio: "in the name of holy potatoes i declare war"
+  avatar: "/assets/images/sir-potata.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "zdilaycelik@gmail.com"
