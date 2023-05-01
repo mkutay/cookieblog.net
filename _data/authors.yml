@@ -2,7 +2,11 @@
 
 Kuyta:
   name: "Kuyta"
-  bio: "What do you want, jewels? I am a very extravagant man."
+  # bio: "You mean, you call this a war? This funny little thing?"
+  # bio: "Vote for an idiot!"
+  # bio: "London! What a dump."
+  bio: "I thought I sent you to Birmingham for a packet of crisps."
+  # bio: "Well, are you gardeners? I hate gardening!"
   avatar: "/assets/images/kuyta.png"
   links:
     - label: "Email"

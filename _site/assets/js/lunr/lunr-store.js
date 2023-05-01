@@ -35,6 +35,12 @@ var store = [{
         "url": "/ai/music/2023/05/01/machine-learning-models-for-music-creation.html",
         "teaser": "/assets/images/default-teaser.png"
       },{
+        "title": "What is the History of AI? Part 2!",
+        "excerpt":"Sir Potata: It seems like the news of my business have been highly exaggerated but as you can see, I’m back with the second part of the last post (But seriously what the fuck is up with Kuyta’s writing speed. Mf does serial production. Anyways, this proves who is the...","categories": ["AI","history"],
+        "tags": [],
+        "url": "/ai/history/2023/05/01/history-of-ai-2.html",
+        "teaser": "/assets/images/default-teaser.png"
+      },{
     "title": null,
     "excerpt":"     404     Page not found :(    The requested page could not be found.   ","url": "http://localhost:4000/404.html"
   },{
