@@ -1,0 +1,11 @@
+<figure class="{{ include.class }}">
+  <audio controls src="{{include.loc}}">
+    <a href="{{include.loc}}">
+    </a>
+  </audio>
+  {%- if include.caption -%}
+    <figcaption>
+      {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
+    </figcaption>
+  {%- endif -%}
+</figure>

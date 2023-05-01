@@ -29,6 +29,12 @@ var store = [{
         "url": "/ai/2023/04/24/how-does-ai-work.html",
         "teaser": "/assets/images/default-teaser.png"
       },{
+        "title": "Machine Learning Models for Music Creation",
+        "excerpt":"Kuyta: Welcome back everyone! For today’s blog post I will be talking about AI and machine learning again. But this time, I will show the machine learning models for sound generation, especially music creation. I, myself, am very keen on music. I love to listen to music. However, my listening...","categories": ["AI","music"],
+        "tags": [],
+        "url": "/ai/music/2023/05/01/machine-learning-models-for-music-creation.html",
+        "teaser": "/assets/images/default-teaser.png"
+      },{
     "title": null,
     "excerpt":"     404     Page not found :(    The requested page could not be found.   ","url": "http://localhost:4000/404.html"
   },{
