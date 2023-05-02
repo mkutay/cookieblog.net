@@ -67,6 +67,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Cookie-Blog/cookieblog.github.io/"
+    - label: "Newsletter"
+      icon: "far fa-envelope"
+      url: "https://tinyletter.com/cookieblog"
 
 
 # Exclude from processing.
