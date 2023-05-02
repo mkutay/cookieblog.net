@@ -57,4 +57,4 @@ feature_row2:
 
 {% include feature_row id="feature_row2" %}
 
-{% include newsletter2.html %}
+{% include newsletter_index.html %}
