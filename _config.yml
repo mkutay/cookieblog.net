@@ -20,7 +20,7 @@ plugins:
 minimal_mistakes_skin: "dirt" # mint, air, default
 
 locale: "en-US" # language of pages
-repository: "Cookie-Blog/cookieblog.github.io"
+repository: "MKutay/cookieblog.github.io"
 
 teaser: "/assets/images/default-teaser.png" # teaser which will be shown in related posts tab. you can also change it for single posts.
 logo: "assets/images/site-logo.png"
