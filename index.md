@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/main-splash-image.png
   actions:
     - label: "Who Are We?"
-      url: "/about"
+      url: "/intro/2023/03/01/welcome-to-cookie-blog"
   caption: "Photo credit: [**MidJourney**](https://midjourney.com/)"
 excerpt: "Welcome to The Cookie Blog! This is a blog written and maintained by two high-school students. Here you will find many posts about AI and art."
 
