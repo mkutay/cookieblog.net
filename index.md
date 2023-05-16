@@ -51,6 +51,13 @@ feature_row2:
     url: "ai/history/2023/05/01/history-of-ai-2"
     btn_label: "Read More"
     btn_class: "btn--primary" 
+  - image_path: /assets/images/text-ai/gih.png
+    alt: "Text Generating Machine Learning Models"
+    title: "Text Generating Machine Learning Models"
+    excerpt: "**Sir Potata:** It seems like the news of my business have been highly exaggerated but as you can see, I’m back with the second part of the last post."
+    url: "ai/history/2023/05/01/history-of-ai-2"
+    btn_label: "Read More"
+    btn_class: "btn--primary" 
 ---
 
 {% include feature_row id="feature_row" %}
