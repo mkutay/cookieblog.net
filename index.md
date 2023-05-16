@@ -51,11 +51,11 @@ feature_row2:
     url: "ai/history/2023/05/01/history-of-ai-2"
     btn_label: "Read More"
     btn_class: "btn--primary" 
-  - image_path: /assets/images/text-ai/gih.png
+  - image_path: /assets/images/text-ai/2.jpg
     alt: "Text Generating Machine Learning Models"
     title: "Text Generating Machine Learning Models"
-    excerpt: "**Sir Potata:** It seems like the news of my business have been highly exaggerated but as you can see, I’m back with the second part of the last post."
-    url: "ai/history/2023/05/01/history-of-ai-2"
+    excerpt: "**Kuyta:** Hello everyone!! (Brilliant move) I wrote IAs this entire day, and I am exhausted by it. So, I am going to write about something that I like writing about, which is AI."
+    url: "ai/chatbots/text/2023/05/14/text-generating-models"
     btn_label: "Read More"
     btn_class: "btn--primary" 
 ---

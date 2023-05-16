@@ -6,7 +6,7 @@ author: Kuyta
 comments: true
 excerpt: I have tested some text generating models, chatbots and more. Here are my comments.
 header:
-  overlay_image: /assets/images/music-ai/music-disc.png
+  overlay_image: /assets/images/text-ai/2.jpg
   overlay_filter: 0.5
 categories: AI chatbots text
 toc: true
