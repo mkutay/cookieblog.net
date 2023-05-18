@@ -60,6 +60,8 @@ layout: default
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 
+      {% include newsletter2.html %}
+
       {% include post_pagination.html %}
     </div>
 
@@ -68,7 +70,6 @@ layout: default
     {% endif %}
 
   </article>
-
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
@@ -95,7 +96,4 @@ layout: default
     </div>
   {% endif %}
 
-  <div class="page__related">
-    {% include newsletter2.html %}
-  </div>
 </div>
