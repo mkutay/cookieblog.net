@@ -1,3 +1,4 @@
+<section class="page_share">
 <div class="page__comments">
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
@@ -178,3 +179,4 @@
       {% include /comments-providers/custom.html %}
   {% endcase %}
 </div>
+</section>
