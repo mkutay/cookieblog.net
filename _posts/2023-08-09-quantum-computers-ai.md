@@ -4,7 +4,7 @@ title:  "Quantum Computers and AI"
 date:   2023-08-09 20:37:00 +0300
 author: Kuyta
 comments: true
-excerpt: What are quantum computers? What are their applications in AI.
+excerpt: What are quantum computers? What are their applications in AI?
 header:
   overlay_image: /assets/images/quantum-ai/city.jpg
   overlay_filter: 0.5
