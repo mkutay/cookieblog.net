@@ -58,10 +58,18 @@ feature_row2:
     url: "ai/chatbots/text/2023/05/14/text-generating-models"
     btn_label: "Read More"
     btn_class: "btn--primary" 
+feature_row3:
+  - image_path: /assets/images/quantum-ai/city.jpg
+    alt: "Quantum Computers and AI"
+    title: "Quantum Computers and AI"
+    excerpt: "Can you believe that AI has a very big technological limitation? Right now, all those generative AI models like ChatGPT, LLama 2, and Bard can seem to do anything that you give them."
+    url: "ai/quantum/lk-99/2023/08/09/quantum-computers-ai"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="feature_row" %}
 
 {% include feature_row id="feature_row2" %}
 
-
+{% include feature_row id="feature_row3" %}
