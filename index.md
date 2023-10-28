@@ -16,7 +16,7 @@ feature_row:
   - image_path: /assets/images/history-of-ai-3/great-wave.jpeg
     alt: "What is the History of AI? Part 3!"
     title: "What is the History of AI? Part 3!"
-    excerpt: "Sir Potata: I think I’m in loss for words after realizing how much time has passed since my last post. It seems like I have reached a new level of procrastination with this performance of mine."
+    excerpt: "**Sir Potata**: I think I’m in loss for words after realizing how much time has passed since my last post. It seems like I have reached a new level of procrastination with this performance of mine."
     url: "ai/history/2023/10/28/history-of-ai-3"
     btn_label: "Read More"
     btn_class: "btn--primary"
