@@ -13,6 +13,13 @@ header:
 excerpt: "Welcome to The Cookie Blog! This is a blog written and maintained by two high-school students. Here you will find many posts about AI and art."
 
 feature_row:
+  - image_path: /assets/images/history-of-ai-3/great-wave.jpeg
+    alt: "What is the History of AI? Part 3!"
+    title: "What is the History of AI? Part 3!"
+    excerpt: "Sir Potata: I think I’m in loss for words after realizing how much time has passed since my last post. It seems like I have reached a new level of procrastination with this performance of mine."
+    url: "ai/history/2023/10/28/history-of-ai-3"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/quantum-ai/city.jpg
     alt: "Quantum Computers and AI"
     title: "Quantum Computers and AI"
@@ -27,6 +34,7 @@ feature_row:
     url: "ai/chatbots/text/2023/05/14/text-generating-models"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row2:
   - image_path: /assets/images/history-of-ai-2/ign_endeavour1.png
     alt: "What is the History of AI? Part 2!"
     title: "What is the History of AI? Part 2!"
@@ -34,7 +42,6 @@ feature_row:
     url: "ai/history/2023/05/01/history-of-ai-2"
     btn_label: "Read More"
     btn_class: "btn--primary" 
-feature_row2:
   - image_path: /assets/images/music-ai/music-disc.png
     alt: "Machine Learning Models for Music Creation"
     title: "Machine Learning Models for Music Creation"
@@ -49,6 +56,7 @@ feature_row2:
     url: "ai/2023/04/24/how-does-ai-work"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row3:
   - image_path: /assets/images/astronaut-standing-infront-of-moon-2.png
     image_caption: "Photo credit: [MidJourney](https://midjourney.com/)"
     alt: "Where did AI come from? How today’s AI was made?"
@@ -57,7 +65,6 @@ feature_row2:
     url: "ai/history/2023/03/11/history-of-ai"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
   - image_path: assets/images/astronaut-standing-infront-of-moon.png
     image_caption: "Photo credit: [MidJourney](https://www.midjourney.com/)"
     alt: "Actually tho what is it?"
