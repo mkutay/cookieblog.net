@@ -4,7 +4,7 @@ title: "The CEO of OpenAI, Sam Altman, Fired"
 date: 2023-11-19 14:30:00 +0300
 author: Kuyta
 comments: true
-excerpt: "Who could have expected to see the CEO of OpenAI, the creators of DALL-E 3, ChatGPT, and GPT-4, Sam Altman, get fired last Friday?"
+excerpt: "Who could have expected to see the CEO of OpenAI, the creator of DALL-E 3, ChatGPT, and GPT-4, Sam Altman, get fired last Friday?"
 header:
   overlay_image: /assets/images/sam-altman-fired/cat-sound.png
   overlay_filter: 0.5
@@ -12,7 +12,7 @@ categories: ai openai
 toc: true
 ---
 
-Who could have expected to see the CEO of OpenAI, the creators of DALL-E 3, ChatGPT, and GPT-4, Sam Altman, get fired last Friday? Honestly, if GPT-5 had been announced, I would have been less surprised. So, let us uncover what happened over the last couple of days.
+Who could have expected to see the CEO of OpenAI, the creator of DALL-E 3, ChatGPT, and GPT-4, Sam Altman, get fired last Friday? Honestly, if GPT-5 had been announced, I would have been less surprised. So, let us uncover what happened over the last couple of days.
 
 # How Things Occurred
 
