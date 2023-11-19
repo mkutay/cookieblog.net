@@ -13,6 +13,13 @@ header:
 excerpt: "Welcome to The Cookie Blog! This is a blog written and maintained by two high-school students. Here you will find many posts about AI and art."
 
 feature_row:
+  - image_path: /assets/images/sam-altman-fired/cat-sound.png
+    alt: "The CEO of OpenAI, Sam Altman, Fired"
+    title: "The CEO of OpenAI, Sam Altman, Fired"
+    excerpt: "Who could have expected to see the CEO of OpenAI, the creators of DALL-E 3, ChatGPT, and GPT-4, Sam Altman, get fired last Friday? Honestly, if GPT-5 had been announced, I would have been less surprised. So, let us uncover what happened over the last couple of days."
+    url: "ai/openai/2023/11/19/sam-altman-fired"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/history-of-ai-3/great-wave.jpeg
     alt: "What is the History of AI? Part 3!"
     title: "What is the History of AI? Part 3!"
@@ -27,6 +34,7 @@ feature_row:
     url: "ai/quantum/lk-99/2023/08/09/quantum-computers-ai"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row2:
   - image_path: /assets/images/text-ai/2.jpg
     alt: "Text Generating Machine Learning Models"
     title: "Text Generating Machine Learning Models"
@@ -34,7 +42,6 @@ feature_row:
     url: "ai/chatbots/text/2023/05/14/text-generating-models"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row2:
   - image_path: /assets/images/history-of-ai-2/ign_endeavour1.png
     alt: "What is the History of AI? Part 2!"
     title: "What is the History of AI? Part 2!"
@@ -49,6 +56,7 @@ feature_row2:
     url: "ai/music/2023/05/01/machine-learning-models-for-music-creation"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row3:
   - image_path: /assets/images/how-does-ai-work/astronaut-nord.png
     alt: "How does AI actually work?"
     title: "How Does AI Work?"
@@ -56,7 +64,6 @@ feature_row2:
     url: "ai/2023/04/24/how-does-ai-work"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
   - image_path: /assets/images/astronaut-standing-infront-of-moon-2.png
     image_caption: "Photo credit: [MidJourney](https://midjourney.com/)"
     alt: "Where did AI come from? How today’s AI was made?"
