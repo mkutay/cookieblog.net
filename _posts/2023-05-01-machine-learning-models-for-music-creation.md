@@ -22,7 +22,7 @@ I love classical and electronic music, and I am not a fan of music that has lyri
 
 # How does Music Generating Models Work?
 
-In [my other post](https://cookieblog.net/ai/2023/04/24/how-does-ai-work.html), we learned how machine learning models actually work. Sound-generating models are not an exception to what I mentioned. 
+In [my other post](https://cookieblog.mkutay.dev/ai/2023/04/24/how-does-ai-work.html), we learned how machine learning models actually work. Sound-generating models are not an exception to what I mentioned. 
 Basically, we gather music files (like the ones in [this dataset](https://www.kaggle.com/datasets/googleai/musiccaps)) that have many different styles, like classical, electronic, hip-hop, rock, metal, 
 etc. We also should know every single music file’s metadata, like its lyrics, type, genre, and artist who made the music. After that, 
 we can train the machine learning model on the gathered dataset. Some music-generating models will also have a language model attached to them. 

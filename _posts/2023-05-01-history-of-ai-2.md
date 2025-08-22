@@ -18,7 +18,7 @@ feature_row2:
 (But seriously what is up with Kuyta’s writing speed. He does serial production. Anyways, this proves who is the real nerd once again >:) ). 
 Hello and welcome again to the second part of the series where your favorite blogger who has potatoes for brains writes about things they don’t know. We will be picking up from where we left off in the last post, hopefully covering all the major developments happened in the artificial intelligence world and have a good understanding of how we got to where we are now. 
 
-In the [last post](https://cookieblog.net/ai/history/2023/03/11/history-of-ai.html), I mentioned some of the improvements that were made but it should be noted that there were much much more than I could bring up. I strongly urge the people who are interested in this topic to do further exploration because there are some pretty neat programs and computer engineering going on. It is amazing how much was achieved with very little computational power compared to what we have now.
+In the [last post](https://cookieblog.mkutay.dev/ai/history/2023/03/11/history-of-ai.html), I mentioned some of the improvements that were made but it should be noted that there were much much more than I could bring up. I strongly urge the people who are interested in this topic to do further exploration because there are some pretty neat programs and computer engineering going on. It is amazing how much was achieved with very little computational power compared to what we have now.
 
 The field between 1950 and 1960’s could be described as booming, expanding to every side and it seemed like there were endless possibilities. 
 Everybody had positive views on how the research was going, the hopes were so high that most people believed that AI would reach 

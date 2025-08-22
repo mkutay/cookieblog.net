@@ -4,7 +4,7 @@ subtitle: AI Art
 description: >-
   A blog discussing AI and art.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cookieblog.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cookieblog.mkutay.dev" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 

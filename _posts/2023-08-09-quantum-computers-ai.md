@@ -40,4 +40,4 @@ As this blog is a _biiiiiiig fan /s_ of ChatGPT, it is quite funny that it had a
 
 ---
 
-**Kuyta:** Oh wow, it has really been a while since we posted anything to this blog. Our [last post](https://cookieblog.net/ai/chatbots/text/2023/05/14/text-generating-models) was from May, and looking back, we probably should’ve posted something; even a simple and short article would have been fine. But we didn't, and it’s _fiiine_. Also, expect the last part of _History of AI_ from Sir Potata in the following weeks (hopefully).
+**Kuyta:** Oh wow, it has really been a while since we posted anything to this blog. Our [last post](https://cookieblog.mkutay.dev/ai/chatbots/text/2023/05/14/text-generating-models) was from May, and looking back, we probably should’ve posted something; even a simple and short article would have been fine. But we didn't, and it’s _fiiine_. Also, expect the last part of _History of AI_ from Sir Potata in the following weeks (hopefully).
